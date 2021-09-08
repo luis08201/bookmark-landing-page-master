@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
+
+//Primary
+
+$Soft-Blue: hsl(231, 69%, 60%);
+$Soft-Red: hsl(0, 94%, 66%);
+
+// Neutral
+
+$Grayish-Blue: hsl(229, 8%, 60%);
+$Very-Dark-Blue: hsl(229, 31%, 21%);
+
+:root,
+button,
+input{
+        font-family: 'Rubik', sans-serif;
+        font-size: 18px;
+}
+%widthContainOne{
+    max-width:1110px;
+}
+%widthContainTwo{
+    max-width:1185px;
+}
+%widthContainThree  {
+    max-width:532px;
+}
+%widthContainFour  {
+    max-width:1090px;
+}
+%widthContainFive  {
+    max-width:920px;
+}
+%widthContainSix  {
+    max-width:546px;
+}
+%widthContainSeven  {
+    max-width:445px;
+}
+%hover{
+    color:$Soft-Red;
+    cursor:pointer;
+}
+%hover__red{
+    background-color: transparent;
+    border:1px solid $Soft-Red;
+    color:$Soft-Red;
+    cursor:pointer;
+}
+%hover__blue{
+    background-color: transparent;
+    border:1px solid $Soft-Blue;
+    color:$Soft-Blue;
+    cursor:pointer;
+}
